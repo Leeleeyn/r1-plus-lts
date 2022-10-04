@@ -6,7 +6,9 @@
 #
 # https://github.com/P3TERX/Actions-OpenWrt
 # Description: Build OpenWrt using GitHub Actions
-#
+# REPO_URL: https://github.com/immortalwrt/immortalwrt
+# REPO_BRANCH: openwrt-21.02
+
 
 name: Build OpenWrt
 
