@@ -10,7 +10,8 @@
 # REPO_BRANCH: master
 # REPO_URL: https://github.com/immortalwrt/immortalwrt
 # REPO_BRANCH: openwrt-21.02
-
+# REPO_URL: https://github.com/orangepi-xunlong/openwrt
+# REPO_BRANCH: openwrt-21.02
 
 name: Build OpenWrt
 
@@ -24,7 +25,7 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/immortalwrt/immortalwrt
+  REPO_URL: https://github.com/orangepi-xunlong/openwrt
   REPO_BRANCH: openwrt-21.02
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
